@@ -1,28 +1,9 @@
-let boxes = document.querySelectorAll(".box");
-boxes = Array.from(boxes);
+document.addEventListener("DOMContentLoaded", () => {
+  const grid = document.querySelector(".grid");
+  let squares = document.querySelectorAll(".grid div");
+  squares = Array.from(squares);
+  let width = 10;
 
-let width;
 
-window.addEventListener("keydown", (e) => {
-    
-})
-
-for (let i=0;i<140;i++){
-    boxes[i].addEventListener("click", () => {
-        console.log(boxes[i]);
-    })
-}
-
-snake = [0, 1, 2, 3];
-
-for (let i=0;i<snake.length;i++){
-    boxes[snake[i]].classList.add("snake");
-}
-
-setInterval(() => {
-
-    for (let i=0;i<snake.length;i++){
-        snake[i] += width;
-    }
-
-}, 500)
+  console.log(squares);
+});
