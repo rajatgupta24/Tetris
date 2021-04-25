@@ -6,3 +6,24 @@ The purpose of the project is to build a better understanding of algorithms thro
 
 ### Concept that are used
 - Array
+
+
+### In this game of Tetris we will be covering the following inbuilt JavaScript methods:
+
+* addEventListener()
+* querySelector()
+* querySelectorAll()
+* keyCode()
+* Math.floor()
+* Math.random()
+* length
+* forEach()
+* splice()
+* clearInterval()
+* setInterval()
+* some()
+* innerHTML()
+* every()
+* add()
+* remove()
+* contains()
